@@ -1,4 +1,4 @@
-Automatic action: Push due date when moving cards
+Automatic action: Remove due date when moving cards
 =================================================
 
 This plugin allows you to create an automatic action in Kanboard that remove the due date of a card
