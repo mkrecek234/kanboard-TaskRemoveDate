@@ -1,18 +1,18 @@
 Automatic action: Push due date when moving cards
 =================================================
 
-This plugin allows you to create an automatic action in Kanboard that will push the due date of a card
-out a user specified number of days when moved to a user specified column.
+This plugin allows you to create an automatic action in Kanboard that remove the due date of a card
+when moved to a user specified column. The former due date will be stored in the reference field (pre-poned).
 
 The goal is to make updating due dates easier during a drag and drop operation.
 
 When adding an automatic action, the action name is shown as
-"Automatically set the task due date when the task is moved to another column"
+"Automatically remove the task due date when the task is moved to another column"
 
 Author
 ------
 
-- David Morlitz
+- Michael Krecek & David Morlitz
 - License MIT
 
 Requirements
