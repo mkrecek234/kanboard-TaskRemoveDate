@@ -81,7 +81,7 @@ class TaskRemoveDate extends Base
      */
     public function doAction(array $data)
     {	if ($data['task']['date_due'] == 0) {
-    	$referencetext = "&#9745;" . date('d.m.Y H:i:s', $data['task']['date_due']);
+    	$referencetext = "";
     	} else {
    	 	$referencetext = "&#9745;" . date('d.m.Y H:i:s', $data['task']['date_due']);
 		 if ($data['task']['reference'] != "") { $referencetext = $referencetext . " " . $data['task']['reference']; }
